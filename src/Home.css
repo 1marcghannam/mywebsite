@@ -13,10 +13,11 @@
 .helloMessage {
     padding-top: 10vh;
 
+
     letter-spacing: 2px;
     z-index: 1;
     width: 100%;
-    height: 90vh;
+    height: 120vh;
     background: rgb(250,235,215);
     background: linear-gradient(0deg, rgba(250,235,215,1) 25%, rgba(255,255,255,1) 95%);
     color: rgba(52, 49, 44, 0.75);
