@@ -11,6 +11,7 @@
 
 
 .helloMessage {
+    padding-top: 10vh;
 
     letter-spacing: 2px;
     z-index: 1;
@@ -20,6 +21,7 @@
     background: linear-gradient(0deg, rgba(250,235,215,1) 25%, rgba(255,255,255,1) 95%);
     color: rgba(52, 49, 44, 0.75);
     text-align: center;
+    align-content: center;
 
 
 }
@@ -36,7 +38,7 @@
 
 @keyframes pulse {
 	0% {
-		transform: scale(0.99);
+		transform: scale(0.98);
         text-shadow: antiquewhite;
 
 	}
@@ -48,7 +50,7 @@
 	}
 
 	100% {
-		transform: scale(0.99);
+		transform: scale(0.98);
 		text-shadow: antiquewhite;
 	}
 }

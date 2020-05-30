@@ -93,12 +93,18 @@ nav {
     overflow-x: hidden;
   }
 
+  .allnav{
+    position: fixed;
+    width: 100%;
+  }
+
   .nav-links {
+    border: antiquewhite;
     z-index: 2;
-    position: absolute;
+    position: fixed;
     right: 0px;
-    height: 92vh;
-    top: 8vh;
+    height: 95vh;
+    top: 10vh;
     background: #F49F0A;
     display: flex;
     flex-direction: column;
