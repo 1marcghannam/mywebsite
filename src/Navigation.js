@@ -39,7 +39,7 @@ window.addEventListener("resize", () => {
 
   return (
 
-      <nav className='allnav'>
+      <nav>
           <div className='logo'>
               <h4>Marc  Ghannam</h4>
               <p><img className='codepic' src={logo}/>Software Developer</p>
