@@ -1,9 +1,7 @@
 import React, {useState} from "react";
 import './Nav.css';
 import logo from './static/ico.png';
-
-
-
+import {Link} from "react-router-dom";
 
 
 function Navigation() {
@@ -60,9 +58,15 @@ window.addEventListener("resize", () => {
 
           </div>
           <ul className='nav-links'>
-              <li><a href='#'>Home</a></li>
-              <li><a href='#'>Projects</a></li>
-              <li><a href='#'>Contact</a></li>
+              <Link to='/'>
+              <li onClick={() => navSlide()}>Home</li>
+                  </Link>
+              <Link to='projects'>
+              <li onClick={() => navSlide()}>Projects</li>
+                  </Link>
+              <Link to='contact'>
+              <li onClick={() => navSlide()}>Contact</li>
+              </Link>
 
           </ul>
           <div className='burger' onClick={() => navSlide()}>

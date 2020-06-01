@@ -3,6 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+    line-height: 1.5;
+
 
 }
 
@@ -17,7 +19,7 @@
     letter-spacing: 2px;
     z-index: 1;
     width: 100%;
-    height: 120vh;
+    height: 300vh;
     background: rgb(250,235,215);
     background: linear-gradient(0deg, rgba(250,235,215,1) 25%, rgba(255,255,255,1) 95%);
     color: rgba(52, 49, 44, 0.75);
@@ -197,6 +199,71 @@
 
 
 }
+
+.intro-sub3 {
+    padding-top: 2%;
+    padding-bottom: 10%;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 10vh;
+
+
+}
+
+.story {
+    line-height: 3;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.helloMessage2{
+    padding-top: 10vh;
+
+
+    letter-spacing: 2px;
+    z-index: 1;
+    width: 100%;
+    height: 40vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255) 25%, rgba(250,235,215,1) 95%);
+    color: rgba(52, 49, 44, 0.75);
+    text-align: center;
+    align-content: center;
+
+
+}
+
+.face {
+    margin-top: -20vh;
+    border-radius: 50%;
+
+
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+
+
+}
+
+.contact:hover {
+    font-size: 20px;
+    font-weight: bolder;
+    animation: pulse 0.5s infinite;
+    text-decoration: none;
+    color: ;
+
+}
+
+a:link {
+    text-decoration: none;
+
+ }
+
 
 
 

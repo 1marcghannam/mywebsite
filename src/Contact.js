@@ -1,17 +1,18 @@
 import React from "react";
-import './Home2.css';
+import './Contact.css'
+
+
+function Contact() {
 
 
 
 
-
-function Home2() {
 
     return(
         <div>
         <div className='helloMessage'>
 
-            <h1 className='intro pulse'>"Some Projects!"</h1>
+            <h1 className='intro pulse'>"Contact Me!"</h1>
             <p className='intro-sub'>My name is Marc. Welcome to my page! </p>
             <p className='intro-sub2'>Website is under construction. </p>
 
@@ -27,6 +28,4 @@ function Home2() {
 
 }
 
-
-
-export default Home2;
+export default Contact;
