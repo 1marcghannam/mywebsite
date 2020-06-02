@@ -8,6 +8,48 @@
 
 }
 
+.about{
+    background-color: rgba(10, 161, 152, 0);
+    margin-top: 18vh;
+    height: 100vh;
+    width: 100%;
+}
+
+.about h1{
+    background-color: rgba(10, 161, 152, 0);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 5rem;
+    border-bottom: 5px solid #0aa198;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+.story1{
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+    line-height: 3;
+    margin-bottom: 7%;
+
+
+}
+
+
+
+
+
+
+
+
+
 .respic{
     align-items: center;
     align-content: center;
@@ -38,7 +80,7 @@
     letter-spacing: 2px;
     z-index: 1;
     width: 100%;
-    height: 300vh;
+    height: 500vh;
     background: rgb(250,235,215);
     background: linear-gradient(0deg, rgba(250,235,215,1) 25%, rgba(255,255,255,1) 95%);
     color: rgba(52, 49, 44, 0.75);
@@ -119,6 +161,11 @@
 }
 
 
+.story1{
+    font-size: 12px;
+}
+
+
 .intro-sub {
     font-size: 14px;
   }
@@ -191,23 +238,6 @@
 
 }
 
-.story1 {
-    line-height: 3;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: rgba(239, 202, 8, 0.5);
-
-
-}
-.story2 {
-    line-height: 3;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: rgba(239, 202, 8, 0.5);
-    padding-bottom: 100px;
-
-
-}
 
 
 .helloMessage2{
