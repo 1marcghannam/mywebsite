@@ -39,7 +39,7 @@ window.addEventListener("resize", () => {
 
   return (
 
-      <nav>
+      <nav className='allnav'>
           <div className='logo'>
               <h4>Marc  Ghannam</h4>
               <p><img className='codepic' src={logo}/>Software Developer</p>
@@ -47,15 +47,15 @@ window.addEventListener("resize", () => {
 
           </div>
           <ul className='nav-links'>
-              <Link to='/'>
-              <li onClick={() => navSlide()}>Home</li>
-                  </Link>
-              <Link to='projects'>
+
+              <li onClick={() => navSlide()}>About</li>
+
+
               <li onClick={() => navSlide()}>Projects</li>
-                  </Link>
-              <Link to='contact'>
+
+
               <li onClick={() => navSlide()}>Contact</li>
-              </Link>
+
 
           </ul>
           <div className='burger' onClick={() => navSlide()}>

@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 
+
 }
 
 .resize-animation-stopper * {
@@ -18,8 +19,10 @@ nav {
   display:flex ;
   justify-content: space-around;
   align-items: center;
-  min-height: 10vh ;
+  min-height: 12vh ;
   background-color: #F49F0A;
+  align-content: center;
+
 
 }
 
@@ -28,6 +31,7 @@ nav {
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 23px;
+  align-content: center;
 
 }
 .logo p{
@@ -46,6 +50,11 @@ nav {
 }
 .nav-links li{
   list-style: none;
+  color: antiquewhite;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .nav-links a{
