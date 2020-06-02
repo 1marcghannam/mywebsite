@@ -81,6 +81,20 @@ function Home() {
 
             </div>
 
+            <div className='projects'>
+                <h1> My Projects </h1>
+                <p className='story1'> I'm a Junior Computer Engineering Student at Wentworth Institute of Technology. I was
+                    born and raised in Beirut, Lebanon. I find joy in solving complex problems and learning new things.
+                    I'm also a watch collector and enthusiast.</p>
+
+
+
+
+
+
+
+            </div>
+
 
         </div>
 
