@@ -8,8 +8,8 @@ import css from "./static/css.png";
 import html from "./static/html.png";
 import react from "./static/react.png";
 import python from "./static/python.png";
-
-
+import project1 from "./static/projectpic1.png"
+import project2 from "./static/projectpic2.png"
 
 
 function Home() {
@@ -83,17 +83,45 @@ function Home() {
 
             <div className='projects'>
                 <h1> My Projects </h1>
-                <p className='story1'> I'm a Junior Computer Engineering Student at Wentworth Institute of Technology. I was
-                    born and raised in Beirut, Lebanon. I find joy in solving complex problems and learning new things.
-                    I'm also a watch collector and enthusiast.</p>
+                <p className='story1'> My small projects include a Python Bot for Tinder, a Black Ice Detector with an Arduino, and much more.
+                 Below are some of my larger projects and still in progress.</p>
+
+                <div className='allcards'>
+                <div className="cardproject">
+                    <img className='projectpic' src={project1}/>
+                        <div className="containerproject">
+                            <h4><b>Personal Portfolio with React</b></h4>
+
+                        </div>
+                </div>
+                    <div className="cardproject">
+                    <img className='projectpic' src={project2}/>
+                        <div className="containerproject">
+                            <h4><b>Watch Store Business</b></h4>
+
+                        </div>
+                </div>
 
 
+                    </div>
+
+            </div>
 
 
+            <div className='contact'>
+                <h1> My Projects </h1>
+                <p className='story1'> My small projects include a Python Bot for Tinder, a Black Ice Detector with an Arduino, and much more.
+                 Below are some of my larger projects and still in progress.</p>
 
 
 
             </div>
+
+
+
+
+
+
 
 
         </div>
