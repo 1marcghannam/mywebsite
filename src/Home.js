@@ -28,7 +28,7 @@ function Home() {
             <p className='intro-sub2'>You can click the button below to get my resume, or scroll down to learn more about me.</p>
             <div className='respic'><a href="https://drive.google.com/file/d/1NegG9ggTdcl9-VcbFvAVP8eVcIOAM0O3/view?usp=sharing" target="_blank"><img className='resume' src={resume}/></a></div>
 
-            <div className='about'>
+            <div className='about' id='about'>
                 <h1> About Me </h1>
                 <p className='story1'> I'm a Junior Computer Engineering Student at Wentworth Institute of Technology. I was
                     born and raised in Beirut, Lebanon. I find joy in solving complex problems and learning new things.
@@ -81,7 +81,7 @@ function Home() {
 
             </div>
 
-            <div className='projects'>
+            <div className='projects' id='projects'>
                 <h1> My Projects </h1>
                 <p className='story1'> My small projects include a Python Bot for Tinder, a Black Ice Detector with an Arduino, and much more.
                  Below are some of my larger projects and still in progress.</p>
@@ -108,14 +108,7 @@ function Home() {
             </div>
 
 
-            <div className='contact'>
-                <h1> My Projects </h1>
-                <p className='story1'> My small projects include a Python Bot for Tinder, a Black Ice Detector with an Arduino, and much more.
-                 Below are some of my larger projects and still in progress.</p>
 
-
-
-            </div>
 
 
 

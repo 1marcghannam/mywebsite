@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './Nav.css';
 import logo from './static/ico.png';
-import {Link} from "react-router-dom";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 
 function Navigation() {
@@ -48,10 +48,13 @@ window.addEventListener("resize", () => {
           </div>
           <ul className='nav-links'>
 
+                  <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>
               <li onClick={() => navSlide()}>About</li>
+              </Link>
 
-
+                <Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>
               <li onClick={() => navSlide()}>Projects</li>
+                </Link>
 
 
               <li onClick={() => navSlide()}>Contact</li>
