@@ -2,7 +2,13 @@ import React from "react";
 import './Home.css'
 import computer from "./static/computer.png";
 import resume from "./static/resume.png";
-// import Pdf from "static/myresume.pdf"
+
+import js from "./static/js.png";
+import css from "./static/css.png";
+import html from "./static/html.png";
+import react from "./static/react.png";
+import python from "./static/python.png";
+
 
 
 
@@ -30,6 +36,48 @@ function Home() {
                 <h1> My Skills</h1>
                 <p className='story1'> I'm an avid learner and I've always been passionate about finding the right solution for every problem I encounter. I love sharing cool ideas
                 with other creative minds, as well as working in a team with a positive mindset.</p>
+
+                <div className='allcards'>
+                <div className="card">
+                    <img className='cutoff' src={python}/>
+                        <div className="container">
+                            <h4><b>Python</b></h4>
+
+                        </div>
+                </div>
+                    <div className="card">
+                    <img className='cutoff' src={react}/>
+                        <div className="container">
+                            <h4><b>React</b></h4>
+
+                        </div>
+                </div>
+                    <div className="card">
+                    <img className='cutoff' src={css}/>
+                        <div className="container">
+                            <h4><b>CSS</b></h4>
+
+                        </div>
+                </div>
+                    <div className="card">
+                    <img className='cutoff' src={html}/>
+                        <div className="container">
+                            <h4><b>HTML</b></h4>
+
+                        </div>
+                </div>
+                    <div className="card">
+                    <img className='cutoff' src={js}/>
+                        <div className="container">
+                            <h4><b>Javascript</b></h4>
+
+                        </div>
+                </div>
+
+
+
+                    </div>
+
 
             </div>
 

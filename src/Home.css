@@ -8,6 +8,36 @@
 
 }
 
+.allcards{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+    width: 200px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+
+    background-color: #eb9a13;
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .about{
     background-color: rgba(10, 161, 152, 0);
     margin-top: 18vh;
@@ -62,6 +92,12 @@
 
 }
 
+.cutoff {
+    margin-top: 10px;
+    height: 100px;
+    width: 100px;
+}
+
 
 
 .computer {
@@ -80,7 +116,7 @@
     letter-spacing: 2px;
     z-index: 1;
     width: 100%;
-    height: 500vh;
+    height: 700vh;
     background: rgb(250,235,215);
     background: linear-gradient(0deg, rgba(250,235,215,1) 25%, rgba(255,255,255,1) 95%);
     color: rgba(52, 49, 44, 0.75);
@@ -147,6 +183,19 @@
 
 
 @media screen and (max-width: 669px) {
+
+
+
+    .allcards{
+    display: flex;
+
+    flex-direction: column;
+        align-items: center;
+        height: 150vh;
+
+
+}
+
     .respic{
     margin-top: -2%;
 }
