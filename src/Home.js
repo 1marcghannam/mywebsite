@@ -10,6 +10,7 @@ import react from "./static/react.png";
 import python from "./static/python.png";
 import project1 from "./static/projectpic1.png"
 import project2 from "./static/projectpic2.png"
+import mailpic from "./static/mail.png"
 
 
 function Home() {
@@ -22,7 +23,7 @@ function Home() {
         <div>
         <div className='helloMessage'>
 
-            <h1 className='intro pulse'>"Hello World!"</h1>
+            <h1 className='intro shake-horizontal'>"Hello World!"</h1>
             <img className='computer' src={computer}/>
             <p className='intro-sub'>My name is Marc. Welcome to my page!</p>
             <p className='intro-sub2'>You can click the button below to get my resume, or scroll down to learn more about me.</p>
@@ -104,6 +105,14 @@ function Home() {
 
 
                     </div>
+
+            </div>
+
+            <div className='contact1' id='contact'>
+                <h1> Contact me </h1>
+                <p className='story1'> Thank you for visiting my page. You can click the button below to get in touch with me through E-Mail.
+                You will also find my LinkedIn and Github accounts linked in the footer.</p>
+                <div className='mailpic'><a href = "mailto: 1marc.ghannam@gmail.com" ><img className='resume' src={mailpic}/></a></div>
 
             </div>
 
