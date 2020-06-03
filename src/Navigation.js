@@ -56,8 +56,9 @@ window.addEventListener("resize", () => {
               <li onClick={() => navSlide()}>Projects</li>
                 </Link>
 
-
+                <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
               <li onClick={() => navSlide()}>Contact</li>
+                </Link>
 
 
           </ul>
