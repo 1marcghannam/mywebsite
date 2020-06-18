@@ -1,5 +1,5 @@
 {
-  "homepage": "http://1marcghannam.github.io/mywebsite",
+//  "homepage": "http://1marcghannam.github.io/mywebsite",
   "name": "official",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+//    "predeploy": "npm run build",
+//    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
