@@ -27,7 +27,7 @@ function Home() {
             <img className='computer' src={computer}/>
             <p className='intro-sub'>My name is Marc. Welcome to my page!</p>
             <p className='intro-sub2'>You can click the button below to get my resume, or scroll down to learn more about me.</p>
-            <div className='respic'><a href="https://drive.google.com/file/d/1NegG9ggTdcl9-VcbFvAVP8eVcIOAM0O3/view?usp=sharing" target="_blank"><img className='resume' src={resume}/></a></div>
+            <div className='respic'><a href="https://drive.google.com/file/d/145GOKQt1VSUpazdEqcoEN_EZaG9nKUv_/view?usp=sharing" target="_blank"><img className='resume' src={resume}/></a></div>
 
             <div className='about' id='about'>
                 <h1> About Me </h1>
